@@ -1,0 +1,83 @@
+@import url('font.css');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: white;
+  font-family: "Inter-Regular";
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.logo{
+  font-family: 'Inter-ExtraBold';
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 10px;
+}
+
+.logo span {
+  color: #2283F5;
+} 
+
+.open {
+  display: none;
+}
+.close {
+  display: none;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu li{
+  display: flex;
+  justify-content: center;
+}
+
+.menu a{
+  display: block;
+  padding: 22px;
+  color: black;
+}
+.menu li a:hover {
+  color: #2283F5;
+}
+
+.hamb{
+  cursor: pointer;
+  float: right;
+  padding: 13px 20px;
+  color: white;
+}
+
+.side-menu {
+  display: none;
+}
+
+
+
+
+
