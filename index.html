@@ -13,12 +13,12 @@
     <div><h1 class="logo" id="logo">Clean<span>Sweep</span></h1></div>
     <div class="nav">
       <img class="open" onclick="openMenu()" src="img/menu.svg" alt="">
-      <img class="close" src="img/close.svg" alt="">
-      <ul class="menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a> </li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+      <img class="close" onclick="closeMenu()" id="close" src="img/close.svg" alt="">
+      <ul class="menu" id="menu">
+          <li onclick="closeMenu()"><a href="#">Home</a></li>
+          <li onclick="closeMenu()"><a href="#">Services</a> </li>
+          <li onclick="closeMenu()"><a href="#">About</a></li>
+          <li onclick="closeMenu()"><a href="#">Contact</a></li>
       </ul>
   </div>
 </div>

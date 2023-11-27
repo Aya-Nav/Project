@@ -1,3 +1,11 @@
+const nav = document.getElementById('menu');
+const icon = document.getElementById('close');
+
 function openMenu() {
-  console.log("hi");
+  nav.classList.add('active');
+  icon.classList.add('active');
+}
+function closeMenu() {
+  nav.classList.remove('active');
+  icon.classList.remove('active');
 }
